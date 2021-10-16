@@ -60,7 +60,7 @@ def is_transaction_successful(money_received, drink_cost):
         return False
 
 def make_coffee(drink_name, order_ingridients):
-    """Deduct the required ingridients from the resources."""
+    """Deduct the required ingridients from the resources. """
     for item in order_ingridients:
         resources[item] -= order_ingridients[item]
     print(f"Here is your {drink_name}")
